@@ -7,9 +7,6 @@ const port = process.env.PORT || 5000;
 
 const question = require( './sample-data.json' );
 
-console.log(question);
-
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

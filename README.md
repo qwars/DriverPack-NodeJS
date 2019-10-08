@@ -23,4 +23,14 @@ Feel free to spend as much or as little time as you'd like, as long as the previ
 
 Sample data for the DB provided in sample-data.json file.
 
+## Install
 
+`yarn install && cd client && yarn install && cd ..`
+
+Start
+
+`yarn dev`
+
+## Video
+
+[!(Sample Video)](https://github.com/qwars/DriverPack-NodeJS/blob/master/out.m4v)
