@@ -1,0 +1,29 @@
+{
+    "name": "DriverPack-NodeJS",
+    "description": "Test task for the position \"Senior NodeJS developer\"",
+    "version": "1.0.0",
+    "author": "Александр Селюнин <aka.qwars@gmail.com>",
+    "repository": {
+        "url": "https://github.com/qwars/DriverPack-NodeJS.git",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/qwars/DriverPack-NodeJS/issues"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+        "server": "nodemon index.js",
+        "client": "cd client && yarn start"
+    },
+    "devDependencies": {
+        "concurrently": "^4.1.2",
+        "nodemon": "^1.19.3"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    }
+}
