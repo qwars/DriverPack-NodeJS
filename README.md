@@ -33,4 +33,4 @@ Start
 
 ## Video
 
-[!(Sample Video)](https://github.com/qwars/DriverPack-NodeJS/blob/master/out.m4v)
+[!(Sample Video)](https://github.com/qwars/DriverPack-NodeJS/blob/master/video.mp4)
